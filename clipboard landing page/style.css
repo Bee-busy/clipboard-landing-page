@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+body{
+    
+    background-image: url('./images/bg-header-desktop.png');
+    background-repeat: no-repeat;  
+    background-size: contain;
+}
+
+/* .container{
+    width: 80%;
+    margin: 0px auto;
+} */
+.icon-c{
+    display: flex;
+    justify-content: center;
+
+    padding-top: 100px;
+    padding-bottom: 50px;
+    
+}
+
+.info{
+    width: 39%;
+    margin: 0px auto;
+    padding: 10px;
+    text-align: center;
+}
+.btn{
+    display: flex;
+    
+    justify-content: center;
+}
+.btn button{
+    border-radius: 60px;
+   border: none;
+    padding: 15px 20px 15px 20px;
+    margin: 30px 0 50px 15px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.btn button:nth-of-type(1){
+    background-color: hsl(171, 66%, 44%);
+    border-bottom: 2px solid hsl(171, 84%, 18%);
+}
+
+.btn button:nth-of-type(2){
+    background-color: hsl(233, 100%, 69%);
+    border-bottom: 2px solid  hsl(233, 59%, 38%);
+}
+
+.features{
+    display: flex;
+}
+
+
+.steps{
+    width: 30%;
+    padding: 110px;
+    padding-top: 100px;
+}
+
+.feature{
+    padding-bottom: 50px;
+}
+
+.insist{
+    margin-top: 70px;
+    text-align: center;
+}
+
+.access{
+    width: 27%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.image-devices{
+    margin-bottom: 100px;
+}
+
+.workflow{
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.one{
+    display: flex;
+}
+
+.two{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    text-align: center;
+
+}
+
+.two img{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-left: 190px;
+}
+
+.logo{
+  text-align: center;
+  margin-bottom: 90px;
+}
+
+.logo img{
+    padding-left: 130px;
+}
+
+.download{
+    text-align: center;
+}
+
+.availability{
+    width: 45%;
+    margin: auto;
+    padding: 0 100px 0 100px;
+}
+
+.site-map{
+    
+    background-color: rgb(212, 210, 210);
+}
+
+.site{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 100px 0 50px 0;
+}
+
+.icon-c-small img{
+    width: 100px;
+    height: 100px;
+}
+.links{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 2px;
+}
+
+.links a{
+    text-decoration: none;
+    color: #000;
+}
+.social-handles{
+    display: flex;
+}
+
+.social-handles img{
+    width: 24px;
+    height: 20px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+h1, h3, h4, h5{
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #2b2929;
+
+}
+
+h1{
+    font-size: 30px;
+}
+
+@media (max-width:375px){
+    *{
+        line-height: 25px;
+        font-size: 10px;
+    }
+    
+    h1, h3, h4, h5{
+        font-family: "Bai Jamjuree", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        color: #2b2929;
+    
+    }
+    
+    h1{
+        font-size: 20px;
+    }
+
+    .icon-c{
+        display: flex;
+        justify-content: center;
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+    .info{
+        width: 80%;
+        margin: 0px auto;
+        padding: 0px;
+        text-align: center;
+    }
+    .btn{
+        display: block;
+        
+    }
+    .btn button{
+        border-radius: 60px;
+       border: none;
+        padding: 15px 20px 15px 20px;
+        margin: 20px 0 30px 15px;
+        box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    .btn a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+    
+    .btn button:nth-of-type(1){
+        background-color: hsl(171, 66%, 44%);
+        border-bottom: 2px solid hsl(171, 84%, 18%);
+    }
+    
+    .btn button:nth-of-type(2){
+        background-color: hsl(233, 100%, 69%);
+        border-bottom: 2px solid  hsl(233, 59%, 38%);
+        margin-bottom: 100px;
+    }
+
+    .features{
+        display: block;
+        margin-top: 100px;
+    }
+    
+    
+    .steps{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .feature{
+        padding-bottom: 30px;
+        width: 100%;
+        
+    }
+
+    .image-computer {
+        text-align: center;
+    }
+
+    .image-computer img{
+        width: 80%;
+    }
+
+    .insist{
+        margin-top: 70px;
+        text-align: center;
+    }
+    
+    .access{
+        width: 80%;
+        margin: auto;
+        margin-bottom: 100px;
+    }
+
+    .image-devices img{
+        width: 90%;
+    }
+
+
+    .one{
+        display: block;
+    }
+    
+    .two{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        text-align: center;
+    
+    }
+    
+    .two img{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        padding-left: 130px;
+    }
+    
+    .logo{
+        text-align: center;
+        margin-bottom: 90px;
+        display: block;
+    }
+      
+    .logo img{
+        padding-left: 130px;
+        margin-bottom: 90px;
+    }
+    .availability{
+        width: 80%;
+        margin: auto;
+        padding: 0 20px 0 20px;
+    }
+    .site{
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 50px 0 25px 0;
+    }
+    
+    .icon-c-small img{
+        width: 100px;
+        height: 100px;
+    }
+    .links{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        row-gap: 2px;
+    }
+    
+    .links a{
+        text-decoration: none;
+        color: #000;
+    }
+    .social-handles{
+        display: flex;
+    }
+    
+    .social-handles img{
+        width: 24px;
+        height: 20px;
+        margin-left: 20px;
+        text-align: center;
+    }
+    
+}
+
+
+
+
